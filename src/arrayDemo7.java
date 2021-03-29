@@ -1,5 +1,5 @@
 
-public class arrayDemo7 {
+public class ArrayDemo7 {
 
 	public static void main(String[] args) {
 		// 다차원 배열의 선언 및 생성
