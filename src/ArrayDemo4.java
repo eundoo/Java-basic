@@ -17,25 +17,16 @@ public class ArrayDemo4 {
 		//학과명 배열은 문자열 5개 저장하는 배열을 new 연산자를 사용해서 생성하고,
 		//0번부터 4번까지 순서대로 학과명을 배열에 저장하기
 		
-		
-		
-		
 		String[] names = {"이순신", "김유신", "강감찬", "유관순"};
 		//학생들의 이름을 저장하는 배열을 생성하기
 		//학생명은 "이순신", "김유신", "강감찬", "유관순"이다.
 		//학생명 배열은 배열표현식을 {값, 값, 값}을 사용해서 배열을 생성
-		
-		
-		
 		
 		double[] scores = {3.1, 3.0, 4.0, 4.3};
 		
 		//학생들의 학점을 저장하는 배열을 생성하기
 		//학새들의 성적은 3.1, 3.0, 4.0, 4.3이다.
 		//학생성적 배열은 배열표현식을 사용해서 배열을 생성하기
-		
-		
-		
 		
 		//### 배열의 값 출력하기
 		//학과명 배열의 모든 값을 for문을 사용해서 화면에 출력하기
@@ -61,8 +52,6 @@ public class ArrayDemo4 {
 		System.out.println("0번째 학생이름: " + names[0]);
 		System.out.println("0번재 학생성적: " + scores[0]);
 		
-		
-		
 		System.out.println("### 성적에 대한 총점과 평균 출력하기");
 		double total = 0.0;
 		double average = 0.0;
@@ -77,7 +66,6 @@ public class ArrayDemo4 {
 		average = total/scores.length;
 		System.out.println("총점: " + total);
 		System.out.println("평균:"  + total);
-		
 		
 	}
 

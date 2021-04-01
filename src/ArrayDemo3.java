@@ -97,7 +97,6 @@ public class ArrayDemo3 {
 			int total = kor + eng + math;
 			int average = total/3;
 			System.out.println(studentName +"\t"+kor+"\t"+eng+"\t"+math+"\t"+total+"\t"+average);
-			
 		}
 	}
 

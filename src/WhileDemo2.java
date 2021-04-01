@@ -18,7 +18,6 @@ public class WhileDemo2 {
 			System.out.print("메뉴를 선택하세요: ");
 			int menuNo = sc.nextInt();
 			
-			
 			if(menuNo == 1) {
 				System.out.println("[결재를 진행합니다.]");
 				
